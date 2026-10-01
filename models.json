@@ -3,11 +3,11 @@
   "updated": "2026-09-30",
   "models": [
     {
-      "tag": "hf.co/HauhauCS/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive:Q4_K_P",
+      "tag": "hf.co/HauhauCS/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive:IQ3_M",
       "name": "Gemma 4 E2B Uncensored",
       "by": "HauhauCS",
-      "sizeGb": 4.4,
-      "needsGb": 5.5,
+      "sizeGb": 4.1,
+      "needsGb": 5.2,
       "sees": true,
       "hears": false,
       "uncensored": true,
