@@ -1,13 +1,18 @@
 {
-  "version": 1,
-  "updated": "2026-09-30",
+  "version": 2,
+  "updated": "2026-10-01",
   "models": [
     {
       "tag": "hf.co/HauhauCS/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive:IQ3_M",
+      "gguf": {
+        "repo": "HauhauCS/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive",
+        "file": "Gemma-4-E2B-Uncensored-HauhauCS-Aggressive-Q4_K_P.gguf",
+        "mmproj": "mmproj-Gemma-4-E2B-Uncensored-HauhauCS-Aggressive-f16.gguf"
+      },
       "name": "Gemma 4 E2B Uncensored",
       "by": "HauhauCS",
-      "sizeGb": 4.1,
-      "needsGb": 5.2,
+      "sizeGb": 4.4,
+      "needsGb": 5.5,
       "sees": true,
       "hears": false,
       "uncensored": true,
@@ -19,6 +24,11 @@
     },
     {
       "tag": "hf.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive:Q4_K_M",
+      "gguf": {
+        "repo": "HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
+        "file": "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
+        "mmproj": "mmproj-Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-f16.gguf"
+      },
       "name": "Gemma 4 E4B Uncensored",
       "by": "HauhauCS",
       "sizeGb": 6.3,
@@ -34,6 +44,11 @@
     },
     {
       "tag": "huihui_ai/gemma-4-abliterated:12b",
+      "gguf": {
+        "repo": "huihui-ai/Huihui-gemma-4-12B-it-qat-q4_0-unquantized-abliterated-GGUF",
+        "file": "Huihui-gemma-4-12B-it-qat-q4_0-unquantized-abliterated-Q4_K.gguf",
+        "mmproj": "mmproj-model-bf16.gguf"
+      },
       "name": "Gemma 4 12B Abliterated",
       "by": "huihui-ai",
       "sizeGb": 7.6,
@@ -49,6 +64,11 @@
     },
     {
       "tag": "huihui_ai/gemma-4-abliterated:26b",
+      "gguf": {
+        "repo": "huihui-ai/Huihui-gemma-4-26B-A4B-it-qat-q4_0-unquantized-abliterated-GGUF",
+        "file": "Huihui-gemma-4-26B-A4B-it-qat-q4_0-unquantized-abliterated-Q4_K.gguf",
+        "mmproj": "mmproj-model-bf16.gguf"
+      },
       "name": "Gemma 4 26B Abliterated",
       "by": "huihui-ai",
       "sizeGb": 18,
@@ -64,6 +84,11 @@
     },
     {
       "tag": "huihui_ai/gemma-4-abliterated:31b",
+      "gguf": {
+        "repo": "huihui-ai/Huihui-gemma-4-31B-it-qat-q4_0-unquantized-abliterated-GGUF",
+        "file": "Huihui-gemma-4-31B-it-qat-q4_0-unquantized-abliterated-Q4_K.gguf",
+        "mmproj": "mmproj-model-bf16.gguf"
+      },
       "name": "Gemma 4 31B Abliterated",
       "by": "huihui-ai",
       "sizeGb": 19.9,
@@ -79,10 +104,15 @@
     },
     {
       "tag": "gemma4:e4b",
+      "gguf": {
+        "repo": "ggml-org/gemma-4-E4B-it-GGUF",
+        "file": "gemma-4-E4B-it-Q4_0.gguf",
+        "mmproj": "mmproj-gemma-4-E4B-it-Q8_0.gguf"
+      },
       "name": "Gemma 4 E4B",
       "by": "Google",
-      "sizeGb": 6.6,
-      "needsGb": 7.5,
+      "sizeGb": 5.2,
+      "needsGb": 6.5,
       "sees": true,
       "hears": false,
       "uncensored": false,
@@ -94,10 +124,15 @@
     },
     {
       "tag": "gemma4:26b",
+      "gguf": {
+        "repo": "ggml-org/gemma-4-26B-A4B-it-GGUF",
+        "file": "gemma-4-26B-A4B-it-Q4_0.gguf",
+        "mmproj": "mmproj-gemma-4-26B-A4B-it-Q8_0.gguf"
+      },
       "name": "Gemma 4 26B",
       "by": "Google",
-      "sizeGb": 18.7,
-      "needsGb": 20.5,
+      "sizeGb": 15.4,
+      "needsGb": 17.5,
       "sees": true,
       "hears": false,
       "uncensored": false,
