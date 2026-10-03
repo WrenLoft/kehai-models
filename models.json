@@ -1,21 +1,22 @@
 {
   "version": 2,
-  "updated": "2026-10-01",
+  "updated": "2026-10-02",
   "models": [
     {
-      "tag": "hf.co/HauhauCS/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive:IQ3_M",
+      "tag": "hf.co/huihui-ai/Huihui-gemma-4-E2B-it-qat-q4_0-unquantized-abliterated-GGUF:Q4_K",
       "gguf": {
-        "repo": "HauhauCS/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive",
-        "file": "Gemma-4-E2B-Uncensored-HauhauCS-Aggressive-Q4_K_P.gguf",
-        "mmproj": "mmproj-Gemma-4-E2B-Uncensored-HauhauCS-Aggressive-f16.gguf"
+        "repo": "huihui-ai/Huihui-gemma-4-E2B-it-qat-q4_0-unquantized-abliterated-GGUF",
+        "file": "Huihui-gemma-4-E2B-it-qat-q4_0-unquantized-abliterated-Q4_K.gguf",
+        "mmproj": "mmproj-model-bf16.gguf"
       },
-      "name": "Gemma 4 E2B Uncensored",
-      "by": "HauhauCS",
+      "name": "Gemma 4 E2B Abliterated",
+      "by": "huihui-ai",
       "sizeGb": 4.4,
       "needsGb": 5.5,
       "sees": true,
       "hears": false,
       "uncensored": true,
+      "license": "apache-2.0",
       "description": "The smallest: runs on almost any GPU, even without one (slowly). Simple, but quick.",
       "settings": {
         "suppressThinking": false,
@@ -23,19 +24,20 @@
       }
     },
     {
-      "tag": "hf.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive:Q4_K_M",
+      "tag": "hf.co/huihui-ai/Huihui-gemma-4-E4B-it-qat-q4_0-unquantized-abliterated-GGUF:Q4_K",
       "gguf": {
-        "repo": "HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
-        "file": "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
-        "mmproj": "mmproj-Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-f16.gguf"
+        "repo": "huihui-ai/Huihui-gemma-4-E4B-it-qat-q4_0-unquantized-abliterated-GGUF",
+        "file": "Huihui-gemma-4-E4B-it-qat-q4_0-unquantized-abliterated-Q4_K.gguf",
+        "mmproj": "mmproj-model-bf16.gguf"
       },
-      "name": "Gemma 4 E4B Uncensored",
-      "by": "HauhauCS",
+      "name": "Gemma 4 E4B Abliterated",
+      "by": "huihui-ai",
       "sizeGb": 6.3,
       "needsGb": 7.5,
       "sees": true,
       "hears": false,
       "uncensored": true,
+      "license": "apache-2.0",
       "description": "Small and quick, with noticeably better conversation than E2B.",
       "settings": {
         "suppressThinking": false,
@@ -56,6 +58,7 @@
       "sees": true,
       "hears": false,
       "uncensored": true,
+      "license": "apache-2.0",
       "description": "A good middle ground: thoughtful conversation and a sharp eye for your screen.",
       "settings": {
         "suppressThinking": false,
@@ -76,6 +79,7 @@
       "sees": true,
       "hears": false,
       "uncensored": true,
+      "license": "apache-2.0",
       "description": "Large but fast (it only uses part of itself for each word). Rich conversation.",
       "settings": {
         "suppressThinking": false,
@@ -96,6 +100,7 @@
       "sees": true,
       "hears": false,
       "uncensored": true,
+      "license": "apache-2.0",
       "description": "The best conversation and screen reading here, for big GPUs.",
       "settings": {
         "suppressThinking": false,
@@ -116,6 +121,7 @@
       "sees": true,
       "hears": false,
       "uncensored": false,
+      "license": "apache-2.0",
       "description": "Google's standard small model: careful, family friendly.",
       "settings": {
         "suppressThinking": false,
@@ -136,6 +142,7 @@
       "sees": true,
       "hears": false,
       "uncensored": false,
+      "license": "apache-2.0",
       "description": "Google's standard large model: careful, family friendly, fast for its size.",
       "settings": {
         "suppressThinking": false,
